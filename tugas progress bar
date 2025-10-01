@@ -69,7 +69,7 @@
       if (progress >= 100) {
         progress = 100;
         clearInterval(timer);
-        window.location.href = "home.html"; // redirect after done
+        window.location.href = "https://diep.io/"; // redirect after done
       }
       progressBar.style.width = progress + "%";
       progressBar.innerText = Math.floor(progress) + "%";
